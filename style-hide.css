@@ -1,4 +1,4 @@
-img {
+img, image{
   opacity: 0 !important;
   -webkit-transition: opacity 0.33s ease-in-out;
   -moz-transition: opacity 0.33s ease-in-out;
@@ -6,7 +6,7 @@ img {
   transition: opacity 0.33s ease-in-out;
 }
 
-*:hover > img, img:hover {
+*:hover > img, *:hover > image, img:hover, image:hover {
   opacity: 1 !important;
 }
 

@@ -112,8 +112,8 @@ chrome.runtime.onMessage.addListener(
         // initialize this beast
         ImgHider.init();
         // refresh the setting every 10 seconds -- to account for dynamic changes in the page
-        // disabled for now, probably not needed, but leaving the code here until I can decide after more testing.
-        // setInterval(function(){ ImgHider.refresh(); }, ImgHider.interval);
+        // X disabled for now, probably not needed, but leaving the code here until I can decide after more testing.
+        setInterval(function(){ ImgHider.refresh(); }, ImgHider.interval);
         // use the callback and pass it the show/hide status
         sendResponse(ImgHider.status);
         break;
