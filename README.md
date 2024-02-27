@@ -40,7 +40,7 @@ Go to the Web Store page for the extension ([Click Here!](https://chrome.google.
 
 **Manual Installation**
 
-This is an unpublished Chrome extension. Follow the guide here to install: [Load the extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
+This is an unpublished Chrome extension. Follow the guide here to install: [Load the extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)
 
 #### Forks, Bugs, Publishing, and etc.
 
